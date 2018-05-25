@@ -1,0 +1,1 @@
+export default "This is Guillaume's Webpack & Babel project!";

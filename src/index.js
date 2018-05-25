@@ -1,1 +1,3 @@
-console.log("This is Guillaume's Webpack & Babel project!");
+import message from './message';
+ 
+console.log(message);
