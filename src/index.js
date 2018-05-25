@@ -1,0 +1,1 @@
+console.log("This is Guillaume's Webpack & Babel project!");
