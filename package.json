@@ -1,0 +1,22 @@
+{
+  "name": "webpack-babel-setup",
+  "version": "1.0.0",
+  "description": ":satellite: Webpack Babel Setup :satellite: === This is the  Webpack Babel Project/Tutorial from [bitwiser](http://bitwiser.in/2018/02/22/setup-javascript-webpack-project.html)",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --content-base dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -12,4 +12,6 @@ How to run it:
 git clone git@github.com/GBouffard/webpack-babel-setup
 cd webpack-babel-setup
 npm install
+npm run build
+npm run dev
 ```
