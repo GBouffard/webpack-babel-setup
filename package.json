@@ -24,7 +24,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production webpack",
-    "dev": "NODE_ENV=development webpack-dev-server --content-base dist --hot"
+    "dev": "NODE_ENV=development webpack-dev-server --content-base dist --hot",
+    "lint": "eslint ./src --ext .js"
   },
   "keywords": [],
   "author": "",

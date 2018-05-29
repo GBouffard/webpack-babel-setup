@@ -4,7 +4,7 @@ This is the  Webpack Babel Project/Tutorial from [bitwiser](http://bitwiser.in/2
 
 Status:
 ----
-In progress
+Completed :white_check_mark:
 
 How to run it:
 ----
@@ -13,5 +13,6 @@ git clone git@github.com/GBouffard/webpack-babel-setup
 cd webpack-babel-setup
 npm install
 npm run build
+npm run lint
 npm run dev
 ```

@@ -5,6 +5,10 @@
   },
   "extends": "eslint:recommended",
   "globals": {
-    "document": true
+    "document": true,
+    "console": true
+  },
+  "rules": {
+    "no-console": 1
   }
 }
