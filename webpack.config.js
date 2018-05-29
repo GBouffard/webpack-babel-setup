@@ -24,7 +24,12 @@ module.exports = {
     extractScss
   ],
   module: {
-    rules: [{
+     rules: [{
+      enforce: 'pre',
+      test: /\.js$/,
+      exclude: /node_modules/,
+      use: 'eslint-loader'
+    }, {
       test: /\.js$/,
       exclude: /node_modules/,
       use: 'babel-loader'
